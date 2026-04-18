@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: urban-mart-app
+  namespace: default
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: urban-mart-app
+  template:
+    metadata:
+      labels:
+        app: urban-mart-app
+    spec:
+      containers:
+      - name: urban-mart-app
+        image: pshuser/urban-mart-application:build-12
+        ports:
+        - containerPort: 80
