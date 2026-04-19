@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: urban-mart-app
-        image: pshuser/urban-mart-application:build-3
+        image: pshuser/urban-mart-application:build-4
         ports:
         - containerPort: 80
