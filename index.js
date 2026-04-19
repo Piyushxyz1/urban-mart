@@ -111,7 +111,15 @@
                 category: "kitchen",
                 inStock: true 
             },
-         
+           {
+                id: 10,
+                name: "iPad Pro 12.9\" M2",
+                description: "Ultimate iPad experience with M2 chip and Liquid Retina XDR",
+                price: 1099.00,
+                image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=300&fit=crop",
+                category: "electronics",
+                inStock: true 
+            },
 ];
 
         let cart = [];
