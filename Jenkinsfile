@@ -6,9 +6,9 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = "pshuser/urban-mart-application"
-        GIT_USER   = "piyushxyz1"
-        GIT_EMAIL  = "piyushnegi033@gmail.com"
+        IMAGE_NAME = "yourdockerhubusername/urban-mart-application"
+        GIT_USER   = "yourusername"
+        GIT_EMAIL  = "yourgmail@gmail.com"
     }
 
     stages {
