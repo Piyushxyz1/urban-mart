@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "yourdockerhubusername/urban-mart-application"
-        GIT_USER   = "yourusername"
+        GIT_USER   = "yourgithubusername"
         GIT_EMAIL  = "yourgmail@gmail.com"
     }
 
