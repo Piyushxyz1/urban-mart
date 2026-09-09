@@ -63,7 +63,7 @@ pipeline {
 
                         git add k8s/deployment.yml
                         git diff --cached --quiet || git commit -m "Updated ${IMAGE_TAG}"
-                        git push https://${GIT_USERNAME}:${GIT_TOKEN}@github.com/piyushxyz1/urban-mart.git main
+                        git push https://${GIT_USERNAME}:${GIT_TOKEN}@github.com/yourgithub/urban-mart.git main
                         """
                     }
                 }
